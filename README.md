@@ -1,4 +1,4 @@
-![kotlin-version](https://img.shields.io/badge/kotlin-2.0.20-blue?logo=kotlin)
+![kotlin-version](https://img.shields.io/badge/kotlin-2.0.21-blue?logo=kotlin)
 
 ![badge-android](http://img.shields.io/badge/platform-android-6EDB8D.svg?style=flat)
 ![badge-ios](http://img.shields.io/badge/platform-ios-CDCDCD.svg?style=flat)
