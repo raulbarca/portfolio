@@ -14,7 +14,6 @@ import androidx.core.view.WindowCompat
 import com.raulbarca.portfolio.core.designsystem.theme.backgroundDark
 import com.raulbarca.portfolio.core.designsystem.theme.backgroundLight
 import com.raulbarca.portfolio.di.appModule
-import io.github.vinceglb.filekit.core.FileKit
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin
@@ -34,7 +33,6 @@ class MainActivity : ComponentActivity() {
             )
         }
 
-        FileKit.init(this)
         setContent {
             val view = LocalView.current
             if (!view.isInEditMode) {
