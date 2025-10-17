@@ -1,31 +1,29 @@
 [versions]
-agp = "8.7.1"
-android-compileSdk = "34"
+agp = "8.11.2"
+android-compileSdk = "36"
 android-minSdk = "24"
-android-targetSdk = "34"
-androidx-activityCompose = "1.9.3"
-coil = "3.0.0-alpha09"
-compose-plugin = "1.7.0"
-filekit = "0.8.7"
-kotlin = "2.0.21"
-koin = "4.0.0"
-koinComposeMultiplatform = "4.0.0"
-ktor = "3.0.1-eap-1122"
-lifecycle = "2.8.3"
-navigationCompose = "2.7.0-alpha07"
-kotlinx_serialization_json = "1.7.3"
-coroutines = "1.9.0"
-modulegraph = "0.10.1"
-buildConfig = "5.5.0"
+android-targetSdk = "36"
+androidx-activityCompose = "1.11.0"
+coil = "3.3.0"
+compose-plugin = "1.9.1"
+kotlin = "2.2.20"
+koin = "4.1.1"
+koinComposeMultiplatform = "4.1.1"
+ktor = "3.3.1"
+lifecycle = "2.9.5"
+navigationCompose = "2.9.1"
+kotlinx_serialization_json = "1.9.0"
+coroutines = "1.10.2"
+modulegraph = "0.13.0"
+buildConfig = "5.7.0"
 zoomimageComposeCoil = "1.1.0-beta01"
-kermit = "2.0.4"
+kermit = "2.0.8"
 
 [libraries]
 androidx-lifecycle-viewmodel = { module = "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycle" }
 androidx-lifecycle-runtimeCompose = { module = "org.jetbrains.androidx.lifecycle:lifecycle-runtime-compose", version.ref = "lifecycle" }
 coil-network-ktor = { module = "io.coil-kt.coil3:coil-network-ktor3", version.ref = "coil" }
 coil_compose = { module = "io.coil-kt.coil3:coil-compose", version.ref = "coil" }
-filekit-core = { module = "io.github.vinceglb:filekit-core", version.ref = "filekit" }
 kermit = { module = "co.touchlab:kermit", version.ref = "kermit" } # Used on KotlinMultiplatform.kt
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activityCompose" }
 navigation-compose = { module = "org.jetbrains.androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
