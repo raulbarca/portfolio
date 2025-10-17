@@ -19,8 +19,6 @@ kotlin {
             implementation(libs.androidx.lifecycle.viewmodel)
             implementation(libs.androidx.lifecycle.runtimeCompose)
 
-            implementation(libs.filekit.core)
-
             implementation(libs.coil.compose)
         }
     }

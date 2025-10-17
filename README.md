@@ -1,4 +1,4 @@
-![kotlin-version](https://img.shields.io/badge/kotlin-2.0.21-blue?logo=kotlin)
+![kotlin-version](https://img.shields.io/badge/kotlin-2.2.20-blue?logo=kotlin)
 
 ![badge-android](http://img.shields.io/badge/platform-android-6EDB8D.svg?style=flat)
 ![badge-ios](http://img.shields.io/badge/platform-ios-CDCDCD.svg?style=flat)
@@ -68,3 +68,20 @@ graph LR
   :feature:overview --> :core:domain
   :feature:overview --> :core:designsystem
 ```
+
+### Run project
+
+Check the project with `kdoctor` before running any app.
+
+#### Web
+> ./gradlew wasmJsBrowserDevelopmentRun
+
+#### Desktop
+Java 17 is needed to run jvm apps.
+> ./gradlew desktopRun -DmainClass=MainKt --quiet
+
+#### iOS
+Make sure `gradlew` is executable, then run iOS app from Xcode.
+
+#### Android
+Run `composeApp` from Android Studio.
