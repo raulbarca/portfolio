@@ -14,7 +14,7 @@ val appModule = module {
     single {
         NetworkFetcher.Factory(
             networkClient = { get<HttpClient>().asNetworkClient() },
-            cacheStrategy = { CacheStrategy() },
+            cacheStrategy = { CacheStrategy.DEFAULT },
         )
     }
 }
